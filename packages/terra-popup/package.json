@@ -5,7 +5,7 @@
   "description": "The Terra Popup is higher order component that launches terra-hookshot positioned content with the ability to display a dynamic arrow.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cerner/terra-framework.git",
+    "url": "git+https://github.com/timeakadosa81/terra-framework.git",
     "directory": "packages/terra-popup"
   },
   "keywords": [
@@ -18,9 +18,9 @@
   "author": "Cerner Corporation",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/cerner/terra-framework/issues"
+    "url": "https://github.com/timeakadosa81/terra-framework/issues"
   },
-  "homepage": "https://github.com/cerner/terra-framework#readme",
+  "homepage": "https://github.com/timeakadosa81/terra-framework#readme",
   "peerDependencies": {
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
