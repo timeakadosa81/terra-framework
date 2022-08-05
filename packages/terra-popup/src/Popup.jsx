@@ -109,7 +109,7 @@ const defaultProps = {
   contentHeight: '80',
   contentWidth: '240',
   isArrowDisplayed: false,
-  isContentFocusDisabled: false,
+  isContentFocusDisabled: true,
   isHeaderDisabled: false,
   isOpen: false,
   popupContentRole: 'dialog',
@@ -232,7 +232,7 @@ class Popup extends React.Component {
         refCallback={this.validateContentNode}
         isHeightAutomatic={this.props.contentHeight === 'auto'}
         isWidthAutomatic={this.props.contentWidth === 'auto'}
-        isFocusedDisabled={this.props.isContentFocusDisabled}
+        isFocusedDisabled='true'
       >
         {this.props.children}
       </PopupContent>
